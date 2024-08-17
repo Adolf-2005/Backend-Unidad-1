@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const Estudiantes = require('../controllers/estudiantes')
 
-/* GET para Estudiantes */
+/* GET para los Estudiantes */
 router.get('/', function (req, res, next) {
   Estudiantes.listar()
     .then((resultado) => {
