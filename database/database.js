@@ -5,7 +5,7 @@ const estudiantes = [
         id: uuidv4(),
         nombre: "Alonso Moreno",
         edad: 22,
-        carrera: "Ingeniería Industrial"
+        carrera: "Industrial"
     }
 ]
 
