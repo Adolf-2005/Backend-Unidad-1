@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 const Estudiantes = require('../controllers/estudiantes')
 
-/* Vista  numero1. */
+/* Vista  numero 1. */
 router.get('/', function (req, res, next) {
   Estudiantes.listar()
     .then((resultado) => {
@@ -16,12 +16,12 @@ router.get('/', function (req, res, next) {
     })
 });
 
-/* Vista numero2. */
+/* Vista numero 2. */
 router.get('/crear', function (req, res, next) {
   res.render('crear');
 });
 
-/* POST para Estudiantes */
+/* POST para los Estudiantes */
 router.post('/estudiante', function (req, res, next) {
   const body = {
     nombre: req.body.nombre,
