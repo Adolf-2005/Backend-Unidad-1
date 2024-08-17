@@ -13,7 +13,7 @@ router.get('/', function (req, res, next) {
     })
 });
 
-/* POST para Estudiantes */
+/* POST para los Estudiantes */
 router.post('/', function (req, res, next) {
   Estudiantes.agregar(req.body)
     .then((resultado) => {
