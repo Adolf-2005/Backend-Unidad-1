@@ -24,7 +24,7 @@ router.post('/', function (req, res, next) {
     })
 })
 
-/* GET para Estudiante por ID */
+/* GET para los Estudiante por ID */
 router.get('/:id', function (req, res, next) {
   const { id } = req.params
 
@@ -37,7 +37,7 @@ router.get('/:id', function (req, res, next) {
     })
 });
 
-/* PUT para Estudiantes */
+/* PUT para los Estudiantes */
 router.put('/:id', function (req, res, next) {
   const { id } = req.params
 
@@ -50,7 +50,7 @@ router.put('/:id', function (req, res, next) {
   })
 })
 
-/* DELETE para Estudiantes */
+/* DELETE para los Estudiantes */
 router.delete('/:id', function (req, res, next) {
 
   const { id } = req.params
